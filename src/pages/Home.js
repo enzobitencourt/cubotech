@@ -3,6 +3,7 @@ import { Menu } from '../components/menu';
 import styled from 'styled-components';
 import { Divider } from '@chakra-ui/react';
 import Card from '../components/card';
+import Footer from '../components/footer';
 
 const Container = styled.div`
   display: flex;
@@ -141,6 +142,7 @@ function Home() {
                     <Titulo2>Artigos do Blog</Titulo2>
                 </Container5>
             </ContainerBlog>
+            <Footer/>
         </>
     );
 }
