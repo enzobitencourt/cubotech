@@ -12,7 +12,7 @@ const Nav = styled.nav`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 1vw 2vw;
+  padding: 1vw 4vw;
 `;
 
 const Ul = styled.ul`
@@ -101,7 +101,7 @@ export function Menu() {
               Sobre nós
             </MenuItem>
             <MenuItem onClick={() => navigate('/contact')}>
-              Teses e Dissertações
+              Blog
             </MenuItem>
             <MenuItem onClick={() => navigate('/contact')}>
               Galeria
@@ -117,7 +117,7 @@ export function Menu() {
             <StyledLink onClick={() => navigate('/')}>Sobre nós</StyledLink>
           </Li>
           <Li>
-            <StyledLink onClick={() => navigate('/')}>Teses e Dissertações</StyledLink>
+            <StyledLink onClick={() => navigate('/')}>Blog</StyledLink>
           </Li>
           <Li2>
             <StyledLink2 onClick={() => navigate('/')}>Galeria</StyledLink2>
