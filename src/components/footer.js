@@ -70,7 +70,7 @@ function Footer() {
                 </Direita>
             </FooterContainer>
         </>
-    )
+    );
 }
 
 export default Footer

@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import { Divider } from '@chakra-ui/react';
 import Card from '../components/card';
 import Footer from '../components/footer';
+import { ChevronRightIcon } from '@chakra-ui/icons';
+import CardB from '../components/cardBlog';
 
 const Container = styled.div`
   display: flex;
@@ -35,16 +37,35 @@ const Container5 = styled.div`
 const Container4 = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(50vh, auto); 
   gap: 20px;
   justify-content: space-between;
   align-items: center;
   padding: 2vw 0 10vw 0;
 
   @media (max-width: 768px) {
-    grid-template-columns: repeat(2, 1fr); /* Dois cards por linha */
+    grid-template-columns: repeat(2, 1fr); 
+    grid-auto-rows: minmax(40vh, auto); 
   }
 
 `;
+
+const Container6 = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-auto-rows: minmax(60vh, auto); 
+  gap: 60px;
+  align-items: center;
+  padding: 2vw 0 2vw 0;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr); 
+    grid-auto-rows: minmax(30vh, auto); 
+    padding: 10vw 0 0vw 0;
+    gap: 30px;
+  }
+`;
+
 
 const Container3 = styled.div`
   display: flex;
@@ -137,10 +158,19 @@ function Home() {
                 <Container5>
                     <Container2>
                         <Titulo2>Artigos do Blog</Titulo2>
-                        <Divider orientation="horizontal" w="10%" borderColor="#2B2C34" />
+                        <Divider orientation="horizontal" w="20" borderColor="#2B2C34" />
                     </Container2>
-                    <Titulo2>Artigos do Blog</Titulo2>
+                    <Container2>
+                        <Titulo2>Veja todos</Titulo2>
+                        <ChevronRightIcon color='black'/>
+                    </Container2>
                 </Container5>
+                <Container6>
+                  <CardB/>
+                  <CardB/>
+                  <CardB/>
+                  <CardB/>
+                </Container6>
             </ContainerBlog>
             <Footer/>
         </>

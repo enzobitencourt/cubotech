@@ -97,7 +97,7 @@ export function Menu() {
             <MenuItem onClick={() => navigate('/')}>
               Home
             </MenuItem>
-            <MenuItem onClick={() => navigate('/about')}>
+            <MenuItem onClick={() => navigate('/sobrenos')}>
               Sobre nós
             </MenuItem>
             <MenuItem onClick={() => navigate('/contact')}>
@@ -110,17 +110,17 @@ export function Menu() {
         </ChakraMenu>
       ) : (
         <Ul>
-          <Li>
-            <StyledLink onClick={() => navigate('/')}>Home</StyledLink>
+          <Li onClick={() => navigate('/')}>
+            <StyledLink>Home</StyledLink>
           </Li>
-          <Li>
-            <StyledLink onClick={() => navigate('/')}>Sobre nós</StyledLink>
+          <Li onClick={() => navigate('/sobrenos')}>
+            <StyledLink>Sobre nós</StyledLink>
           </Li>
-          <Li>
-            <StyledLink onClick={() => navigate('/')}>Blog</StyledLink>
+          <Li onClick={() => navigate('/')}>
+            <StyledLink>Blog</StyledLink>
           </Li>
-          <Li2>
-            <StyledLink2 onClick={() => navigate('/')}>Galeria</StyledLink2>
+          <Li2 onClick={() => navigate('/')}>
+            <StyledLink2>Galeria</StyledLink2>
           </Li2>
         </Ul>
       )}
