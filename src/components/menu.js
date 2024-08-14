@@ -81,7 +81,7 @@ export function Menu() {
 
   return (
     <Nav>
-      <Container>
+      <Container onClick={() => navigate('/')}>
         <Titulo>Cubotech</Titulo>
         <Subtitulo>.Blog</Subtitulo>
       </Container>
