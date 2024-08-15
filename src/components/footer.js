@@ -73,7 +73,7 @@ function Footer() {
                     </Creditos>
                     <Creditos>
                         <Titulo1>Contato</Titulo1>
-                        <Texto1>grupocubotech@gmai.com</Texto1>
+                        <Texto1>grupocubotech@gmail.com</Texto1>
                         <Texto1>Telefone</Texto1>
                     </Creditos>
                 </Direita>

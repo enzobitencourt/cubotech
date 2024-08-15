@@ -13,6 +13,7 @@ const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 1vw 4vw;
+  
 `;
 
 const Ul = styled.ul`
@@ -79,14 +80,14 @@ export function Menu() {
             icon={<HamburgerIcon />}
             variant='outline'
           />
-          <MenuList color='black'>
+          <MenuList color='black' zIndex='999'>
             <MenuItem onClick={() => navigate('/')}>
               Home
             </MenuItem>
             <MenuItem onClick={() => navigate('/sobrenos')}>
               Sobre nós
             </MenuItem>
-            <MenuItem onClick={() => navigate('/contact')}>
+            <MenuItem onClick={() => navigate('/blog')}>
               Blog
             </MenuItem>
             <MenuItem onClick={() => navigate('/contact')}>
@@ -102,7 +103,7 @@ export function Menu() {
           <Li onClick={() => navigate('/sobrenos')}>
             <StyledLink>Sobre nós</StyledLink>
           </Li>
-          <Li onClick={() => navigate('/')}>
+          <Li onClick={() => navigate('/blog')}>
             <StyledLink>Blog</StyledLink>
           </Li>
           <Li onClick={() => navigate('/')}>
