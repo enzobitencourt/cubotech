@@ -73,7 +73,7 @@ export default function Integrante(props) {
             <Container>
                 <Image
                     src={props.imagem}
-                    width="35%"
+                    width={{ base: "40%", md: "30%" }}
                     objectFit='cover'
                 />
                 <ContainerEscrita>

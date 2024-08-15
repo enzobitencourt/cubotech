@@ -2,12 +2,13 @@ import React from 'react';
 import { Image } from '@chakra-ui/react';
 import styled from 'styled-components';
 
-const Container = styled.div`
+const Container = styled.button`
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: left;
   background-color: white;
   border-radius: 10px;
   padding: 1vw 2vw;

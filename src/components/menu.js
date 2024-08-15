@@ -90,7 +90,7 @@ export function Menu() {
             <MenuItem onClick={() => navigate('/blog')}>
               Blog
             </MenuItem>
-            <MenuItem onClick={() => navigate('/contact')}>
+            <MenuItem onClick={() => navigate('/galeria')}>
               Galeria
             </MenuItem>
           </MenuList>
@@ -106,7 +106,7 @@ export function Menu() {
           <Li onClick={() => navigate('/blog')}>
             <StyledLink>Blog</StyledLink>
           </Li>
-          <Li onClick={() => navigate('/')}>
+          <Li onClick={() => navigate('/galeria')}>
             <StyledLink>Galeria</StyledLink>
           </Li>
         </Ul>

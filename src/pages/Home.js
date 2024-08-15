@@ -7,6 +7,11 @@ import Footer from '../components/footer';
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import CardB from '../components/cardBlog';
 import logo from '../assets/logo.png'
+import { useNavigate } from 'react-router-dom';
+import Daniela from "../assets/Daniela1.jpg"
+import Carla from "../assets/Carla1.jpg"
+import Enzo from "../assets/Enzo1.jpg"
+import Alana from "../assets/Alana1.jpg"
 
 const Container = styled.div`
   display: flex;
@@ -128,6 +133,8 @@ const ImageContainer = styled.div`
 `;
 
 function Home() {
+  const navigate = useNavigate()
+
   return (
     <>
       <Menu />
@@ -188,15 +195,15 @@ function Home() {
             <Divider orientation="horizontal" w="20" borderColor="#2B2C34" />
           </Container2>
           <Container2>
-            <Titulo2>Veja todos</Titulo2>
-            <ChevronRightIcon color='black' />
+            <Titulo2 onClick={() => navigate('/blog')}>Veja todos</Titulo2>
+            <ChevronRightIcon color='black' onClick={() => navigate('/blog')} />
           </Container2>
         </Container5>
         <Container6>
-          <CardB />
-          <CardB />
-          <CardB />
-          <CardB />
+          <CardB titulo='Normas ABNT e Pesquisa' autor='Daniela Pellin' foto={Daniela} data='15/08/2024' />
+          <CardB titulo='Normas ABNT e Pesquisa' autor='Carla Susin' foto={Carla} data='15/08/2024' />
+          <CardB titulo='Normas ABNT e Pesquisa' autor='Enzo Bitencourt' foto={Enzo} data='15/08/2024' />
+          <CardB titulo='Normas ABNT e Pesquisa' autor='Alana Bortolini' foto={Alana} data='15/08/2024' />
         </Container6>
       </ContainerBlog>
       <Footer />

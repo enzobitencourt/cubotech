@@ -3,6 +3,10 @@ import { Menu } from "../components/menu"
 import styled from "styled-components"
 import ImageBlog from "../assets/blog.jpg"
 import CardB from "../components/cardBlog";
+import Daniela from "../assets/Daniela1.jpg"
+import Carla from "../assets/Carla1.jpg"
+import Enzo from "../assets/Enzo1.jpg"
+import Alana from "../assets/Alana1.jpg"
 
 const Container = styled.div`
     display: flex;
@@ -72,10 +76,10 @@ function Blog() {
                 <Titulo>Blog</Titulo>
             </Container>
             <ContainerBlog>
-                <CardB/>
-                <CardB/>
-                <CardB/>
-                <CardB/>
+                <CardB titulo='Normas ABNT e Pesquisa' autor='Daniela Pellin' foto={Daniela} data='15/08/2024'/>
+                <CardB titulo='Normas ABNT e Pesquisa' autor='Carla Susin' foto={Carla} data='15/08/2024'/>
+                <CardB titulo='Normas ABNT e Pesquisa' autor='Enzo Bitencourt' foto={Enzo} data='15/08/2024'/>
+                <CardB titulo='Normas ABNT e Pesquisa' autor='Alana Bortolini' foto={Alana} data='15/08/2024'/>
             </ContainerBlog>
             <Footer />
         </>

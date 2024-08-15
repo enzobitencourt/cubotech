@@ -52,7 +52,7 @@ const Container = styled.div`
     background: white;
 
       @media (max-width: 768px) {
-    gap: 4vw;
+    gap: 6vw;
     padding: 12vw 0;
   }
 `
@@ -121,17 +121,17 @@ function Sobrenos() {
 por organismos internacionais. Além disso, ela é  responsável pelas mídias sociais do grupo CUBOTECH/CNPq.'
           imagem={Alana}
           link='' />
-        <Integrante2 nome='Luna Marengo Tasser'
+        <Integrante2 nome='Luna Marengo Tesser'
           texto='Luna é atualmente aluna do segundo semestre da faculdade de Direito da Unisinos, seu projeto de pesquisa aborda o impacto da tecnologia jurídica e big data no ambiente jurídico. Além disso, é a responsável pela edição e criação de vídeos e podcasts do grupo CUBOTECH/CNPq.'
           imagem={Luna}
           link='' />
-        <Integrante nome='Jamille Nejar'
-          texto='Aluna do oitavo semestre da graduação em Direito pela UNISINOS, o principal objeto da pesquisa de Jamille é baseado no processo de construção jurídica das concessões e PPPs à luz da agenda 2030 e dos Direitos Humanos. '
-          imagem={Jamille}
-          link='' />
-        <Integrante2 nome='Carla Susin'
+        <Integrante nome='Carla Susin'
           texto='Estudante do oitavo semestre de Direito pela UNISINOS, a principal área de pesquisa de Carla tem foco em governança corporativa, que objetiva a elaboração de um caderno de diretrizes para a adoção da ética da responsabilidade nas MPEs.'
           imagem={Carla}
+          link='' />
+        <Integrante2 nome='Jamille Nejar'
+          texto='Aluna do oitavo semestre da graduação em Direito pela UNISINOS, o principal objeto da pesquisa de Jamille é baseado no processo de construção jurídica das concessões e PPPs à luz da agenda 2030 e dos Direitos Humanos. '
+          imagem={Jamille}
           link='' />
       </Container>
       <Footer />

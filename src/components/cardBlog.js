@@ -1,8 +1,9 @@
 import React from 'react';
 import { Image } from '@chakra-ui/react';
 import styled from 'styled-components';
+import { useNavigate } from 'react-router-dom';
 
-const Container = styled.div`
+const Container = styled.button`
   width: 100%;
   height: 100%;
   display: flex;
@@ -11,6 +12,7 @@ const Container = styled.div`
   border-radius: 10px;
   padding: 1.3vw;
   justify-content: center;
+  text-align: left;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease-in-out; /* Transição suave para o aumento de tamanho */
 
@@ -66,10 +68,12 @@ const Autor = styled.div`
 `
 
 
-function CardB() {
+function CardB(props) {
+  const navigate = useNavigate()
+
     return (
         <>
-            <Container>
+            <Container onClick={() => navigate('/blog/article')}>
                 <Container2>
                     <Image
                         src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoqXmY5lsg3BzXaxb-EyLlwE-flJWWh2DOVA&s'
@@ -77,19 +81,21 @@ function CardB() {
                         width="100%"
                         height='100%'
                         objectFit='cover'
+                        objectPosition='center'
                     />
-                    <Titulo>Normas ABNT e Pesquisa</Titulo>
+                    <Titulo>{props.titulo}</Titulo>
                     <Autor>
                         <Image
-                            src='https://s2-oglobo.glbimg.com/-0dni84YWVLwPxS6-f6_Wqkmy-4=/0x0:850x572/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2022/d/v/kFDwF0T3q2wkwvGH0DjA/whatsapp-image-2022-10-03-at-15.34.37.jpeg'
+                            src={props.foto}
                             borderRadius="50%"
                             width="50px"
                             height='50px'
                             objectFit='cover'
+                            objectPosition='center'
                         />
                         <Container3>
-                            <Nome>Daniela Pellin</Nome>
-                            <Infos>10/08/2024</Infos>
+                            <Nome>{props.autor}</Nome>
+                            <Infos>{props.data}</Infos>
                         </Container3>
                     </Autor>
                 </Container2>
