@@ -31,6 +31,17 @@ const Container2 = styled.div`
   gap: 0.3vw;
 `;
 
+export const Texto2 = styled.button`
+    color: #7A757D;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0;
+    text-align: left;
+`
+
 
 function Footer() {
     return (
@@ -43,7 +54,7 @@ function Footer() {
                     </Container>
                     <Container2>
                         <Texto>Desenvolvido por equipe Cubotech.</Texto>
-                        <Titulo>São Leopoldo, 2024</Titulo>
+                        <Titulo>Porto Alegre, 2024</Titulo>
                     </Container2>
                 </Esquerda>
                 <Direita>
@@ -54,18 +65,16 @@ function Footer() {
                         <Texto1>Tecnosinos</Texto1>
                     </Creditos>
                     <Creditos>
-                        <Titulo1>Contato</Titulo1>
-                        <Texto1>Guilherme Golschmitt</Texto1>
-                        <Texto1>Paula Rabelo</Texto1>
-                        <Texto1>Andrei Vupt</Texto1>
-                        <Texto1>Morgana de Moraes</Texto1>
+                        <Titulo1>Siga-nos</Titulo1>
+                        <Texto2>Instagram</Texto2>
+                        <Texto2>Linkedin</Texto2>
+                        <Texto2>Youtube</Texto2>
+                        <Texto2>Spotify</Texto2>
                     </Creditos>
                     <Creditos>
-                        <Titulo1>Siga-nos</Titulo1>
-                        <Texto1>Instagram</Texto1>
-                        <Texto1>Linkedin</Texto1>
-                        <Texto1>Youtube</Texto1>
-                        <Texto1>Spotify</Texto1>
+                        <Titulo1>Contato</Titulo1>
+                        <Texto1>grupocubotech@gmai.com</Texto1>
+                        <Texto1>Telefone</Texto1>
                     </Creditos>
                 </Direita>
             </FooterContainer>

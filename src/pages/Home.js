@@ -1,16 +1,23 @@
 import React from 'react';
 import { Menu } from '../components/menu';
 import styled from 'styled-components';
-import { Divider } from '@chakra-ui/react';
+import { Divider, Image } from '@chakra-ui/react';
 import Card from '../components/card';
 import Footer from '../components/footer';
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import CardB from '../components/cardBlog';
+import logo from '../assets/logo.png'
 
 const Container = styled.div`
   display: flex;
   flex-direction: row;
-  padding: 25vh 0;
+  padding: 18vh 0;
+
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 8vh 0;
+  }
 `;
 
 const MainContainer = styled.div`
@@ -71,6 +78,8 @@ const Container3 = styled.div`
   display: flex;
   flex-direction: column;
   gap: 2vh;
+  justify-content: center;
+  width: 100%;
 `;
 
 const Titulo = styled.p`
@@ -97,7 +106,7 @@ const Texto = styled.p`
   font-style: normal;
   color: #9a9494;
   font-size: 14px;
-  width: 45%;
+  width: 90%;
 `;
 
 const ContainerBlog = styled.div`
@@ -107,74 +116,92 @@ const ContainerBlog = styled.div`
   padding: 10vh 4vw;
 `
 
+const ImageContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+  @media (max-width: 768px) {
+    margin-bottom: 2vh; /* Adiciona um espaço abaixo da imagem */
+  }
+`;
+
 function Home() {
-    return (
-        <>
-            <Menu />
-            <MainContainer>
-                <Container>
-                    <Container3>
-                        <Titulo>Seja Bem-Vindo</Titulo>
-                        <Container2>
-                            <Divider orientation="vertical" borderColor="#2B2C34" borderWidth="1px" />
-                            <Texto>
-                                Cubotech é o portal do grupo de iniciação científica da Universidade do Vale do Rio dos Sinos, dedicado a explorar a interseção entre direito e tecnologia.
-                                Descubra artigos e projetos sobre regulamentação de tecnologias, privacidade, cibersegurança e direitos digitais. Junte-se a nós para explorar e inovar nesse campo
-                                dinâmico.
-                            </Texto>
-                        </Container2>
-                    </Container3>
-                </Container>
-                <Container3>
-                    <Container2>
-                        <Titulo2>Nossos Conteúdos</Titulo2>
-                        <Divider orientation="horizontal" w="10%" borderColor="#2B2C34" />
-                    </Container2>
-                    <Container4>
-                        <Card
-                            titulo="Podcast"
-                            imagem="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Black.png"
-                        />
-                        <Card
-                            titulo="Ebooks"
-                            imagem="https://cdn.icon-icons.com/icons2/1124/PNG/512/bookoutlinedsymbolofopenedpages_79602.png"
-                        />
-                        <Card
-                            titulo="Youtube"
-                            imagem="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png"
-                        />
-                        <Card
-                            titulo="Instagram"
-                            imagem="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"
-                        />
-                        <Card
-                            titulo="Linkedin"
-                            imagem="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
-                        />
-                    </Container4>
-                </Container3>
-            </MainContainer>
-            <ContainerBlog>
-                <Container5>
-                    <Container2>
-                        <Titulo2>Artigos do Blog</Titulo2>
-                        <Divider orientation="horizontal" w="20" borderColor="#2B2C34" />
-                    </Container2>
-                    <Container2>
-                        <Titulo2>Veja todos</Titulo2>
-                        <ChevronRightIcon color='black'/>
-                    </Container2>
-                </Container5>
-                <Container6>
-                  <CardB/>
-                  <CardB/>
-                  <CardB/>
-                  <CardB/>
-                </Container6>
-            </ContainerBlog>
-            <Footer/>
-        </>
-    );
+  return (
+    <>
+      <Menu />
+      <MainContainer>
+        <Container>
+          <Container3>
+            <Titulo>Seja Bem-Vindo</Titulo>
+            <Container2>
+              <Divider orientation="vertical" borderColor="#2B2C34" borderWidth="1px" />
+              <Texto>
+                Cubotech é o portal do grupo de iniciação científica da Universidade do Vale do Rio dos Sinos, dedicado a explorar a interseção entre direito e tecnologia.
+                Descubra artigos e projetos sobre regulamentação de tecnologias, privacidade, cibersegurança e direitos digitais. Junte-se a nós para explorar e inovar nesse campo
+                dinâmico.
+              </Texto>
+            </Container2>
+          </Container3>
+          <ImageContainer>
+            <Image
+              src={logo}
+              width="55%"
+              objectFit='cover'
+            />
+          </ImageContainer>
+        </Container>
+        <Container3>
+          <Container2>
+            <Titulo2>Nossos Conteúdos</Titulo2>
+            <Divider orientation="horizontal" w="10%" borderColor="#2B2C34" />
+          </Container2>
+          <Container4>
+            <Card
+              titulo="Podcast"
+              imagem="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Black.png"
+            />
+            <Card
+              titulo="Ebooks"
+              imagem="https://cdn.icon-icons.com/icons2/1124/PNG/512/bookoutlinedsymbolofopenedpages_79602.png"
+            />
+            <Card
+              titulo="Youtube"
+              imagem="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png"
+            />
+            <Card
+              titulo="Instagram"
+              imagem="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"
+            />
+            <Card
+              titulo="Linkedin"
+              imagem="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+            />
+          </Container4>
+        </Container3>
+      </MainContainer>
+      <ContainerBlog>
+        <Container5>
+          <Container2>
+            <Titulo2>Artigos do Blog</Titulo2>
+            <Divider orientation="horizontal" w="20" borderColor="#2B2C34" />
+          </Container2>
+          <Container2>
+            <Titulo2>Veja todos</Titulo2>
+            <ChevronRightIcon color='black' />
+          </Container2>
+        </Container5>
+        <Container6>
+          <CardB />
+          <CardB />
+          <CardB />
+          <CardB />
+        </Container6>
+      </ContainerBlog>
+      <Footer />
+    </>
+  );
 }
 
 export default Home;

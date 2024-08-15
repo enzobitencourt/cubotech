@@ -14,7 +14,7 @@ export const FooterContainer = styled.div`
     padding: 8vw 4vw;
     align-items: start;
     justify-content: space-between;
-    height: 50vh;
+    height: 45vh;
   }
 `;
 
@@ -33,7 +33,6 @@ export const Direita = styled.div`
     display: grid; 
     grid-template-columns: repeat(2, 1fr); /* Cria um grid com 2 colunas */
     gap: 8vw; /* Espaçamento entre os itens do grid */
-    margin-top: 2vw; /* Adiciona margem superior para separar as seções */
   }
 `;
 

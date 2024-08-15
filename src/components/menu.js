@@ -29,23 +29,9 @@ const Li = styled.li`
   font-family: "Plus Jakarta Sans", sans-serif;
 `;
 
-const Li2 = styled.li`
-  background: #4D69FB;
-  border-radius: 10px;
-  padding: 14px 25px;
-  font-size: 14px;
-  font-weight: 600;
-  font-family: "Plus Jakarta Sans", sans-serif;
-`;
 
 const StyledLink = styled(Link)`
   color: black;
-  text-decoration: none;
-  display: block;
-`;
-
-const StyledLink2 = styled(Link)`
-  color: white;
   text-decoration: none;
   display: block;
 `;
@@ -119,9 +105,9 @@ export function Menu() {
           <Li onClick={() => navigate('/')}>
             <StyledLink>Blog</StyledLink>
           </Li>
-          <Li2 onClick={() => navigate('/')}>
-            <StyledLink2>Galeria</StyledLink2>
-          </Li2>
+          <Li onClick={() => navigate('/')}>
+            <StyledLink>Galeria</StyledLink>
+          </Li>
         </Ul>
       )}
     </Nav>
