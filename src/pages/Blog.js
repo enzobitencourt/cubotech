@@ -62,9 +62,10 @@ const ContainerBlog = styled.div`
   background: white;
 
   @media (max-width: 768px) {
-    grid-template-columns: repeat(2, 1fr); 
-    grid-auto-rows: minmax(30vh, auto); 
-      gap: 30px;
+    grid-template-columns: repeat(2, minmax(20vh, 1fr)); 
+    grid-auto-rows: minmax(40vh, auto); 
+    padding: 10vw 4vw;
+    gap: 30px;
   }
 `;
 

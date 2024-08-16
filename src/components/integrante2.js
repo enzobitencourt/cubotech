@@ -68,12 +68,16 @@ const Link = styled.button`
 `;
 
 export default function Integrante2(props) {
+    const handleClick = () => {
+        window.open(props.link, '_blank');
+    };
+
     return (
         <>
             <Container>
                 <ContainerEscrita>
                     <Titulo1>{props.nome}</Titulo1>
-                    <Link>Acesse o Currículo Lates</Link>
+                    <Link onClick={handleClick}>Acesse o Currículo Lates</Link>
                     <Texto>{props.texto}</Texto>
                 </ContainerEscrita>
                 <Image

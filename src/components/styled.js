@@ -14,7 +14,7 @@ export const FooterContainer = styled.div`
     padding: 8vw 4vw;
     align-items: start;
     justify-content: space-between;
-    height: 45vh;
+    height: 55vh;
   }
 `;
 

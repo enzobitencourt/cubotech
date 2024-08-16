@@ -76,7 +76,7 @@ function CardB(props) {
             <Container onClick={() => navigate('/blog/article')}>
                 <Container2>
                     <Image
-                        src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoqXmY5lsg3BzXaxb-EyLlwE-flJWWh2DOVA&s'
+                        src='https://matriculas.estacio.br/blog/wp-content/uploads/2020/05/29est-biblioteca.jpg'
                         borderRadius="5px"
                         width="100%"
                         height='100%'

@@ -38,6 +38,14 @@ const Container2 = styled.div`
   align-items: center;
 `;
 
+const Container8 = styled.button`
+  display: flex;
+  flex-direction: row;
+  gap: 0.4vw;
+  align-items: center;
+  text-align: left;
+`;
+
 
 const Container5 = styled.div`
   display: flex;
@@ -57,7 +65,7 @@ const Container4 = styled.div`
 
   @media (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr); 
-    grid-auto-rows: minmax(40vh, auto); 
+    grid-auto-rows: minmax(30vh, auto); 
   }
 
 `;
@@ -71,8 +79,8 @@ const Container6 = styled.div`
   padding: 2vw 0 2vw 0;
 
   @media (max-width: 768px) {
-    grid-template-columns: repeat(2, 1fr); 
-    grid-auto-rows: minmax(30vh, auto); 
+    grid-template-columns: repeat(2, minmax(20vh, 1fr)); 
+    grid-auto-rows: minmax(40vh, auto); 
     padding: 10vw 0 0vw 0;
     gap: 30px;
   }
@@ -162,28 +170,33 @@ function Home() {
         <Container3>
           <Container2>
             <Titulo2>Nossos Conteúdos</Titulo2>
-            <Divider orientation="horizontal" w="10%" borderColor="#2B2C34" />
+            <Divider orientation="horizontal" w="20" marginLeft='1vw' borderColor="#2B2C34" />
           </Container2>
           <Container4>
             <Card
               titulo="Podcast"
               imagem="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Black.png"
+              link=''
             />
             <Card
               titulo="Ebooks"
               imagem="https://cdn.icon-icons.com/icons2/1124/PNG/512/bookoutlinedsymbolofopenedpages_79602.png"
+              link=''
             />
             <Card
               titulo="Youtube"
               imagem="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png"
+              link=''
             />
             <Card
               titulo="Instagram"
               imagem="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"
+              link='https://www.instagram.com/grupocubotech?igsh=dGdpODBiajh1djdy&utm_source=qr'
             />
             <Card
               titulo="Linkedin"
               imagem="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+              link='https://www.linkedin.com/in/grupo-cubotech-468100321/'
             />
           </Container4>
         </Container3>
@@ -192,12 +205,12 @@ function Home() {
         <Container5>
           <Container2>
             <Titulo2>Artigos do Blog</Titulo2>
-            <Divider orientation="horizontal" w="20" borderColor="#2B2C34" />
+            <Divider orientation="horizontal" w="20" marginLeft='1vw' borderColor="#2B2C34" />
           </Container2>
-          <Container2>
-            <Titulo2 onClick={() => navigate('/blog')}>Veja todos</Titulo2>
-            <ChevronRightIcon color='black' onClick={() => navigate('/blog')} />
-          </Container2>
+          <Container8 onClick={() => navigate('/blog')}>
+            <Titulo2>Veja todos</Titulo2>
+            <ChevronRightIcon color='black' />
+          </Container8>
         </Container5>
         <Container6>
           <CardB titulo='Normas ABNT e Pesquisa' autor='Daniela Pellin' foto={Daniela} data='15/08/2024' />

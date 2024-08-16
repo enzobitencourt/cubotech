@@ -111,11 +111,11 @@ function Sobrenos() {
         <Integrante nome='Professora Dra. Daniela Pellin'
           texto='Professora, Pesquisadora, Doutora e Pós Doutora do Programa de Mestrado Profissional em Direito da Empresa e dos Negócios da UNISINOS, Daniela é líder do Grupo de Pesquisa CUBOTECH/CNPq.'
           imagem={Daniela}
-          link='' />
+          link='http://lattes.cnpq.br/8962572217907641' />
         <Integrante2 nome='Enzo Bitencourt'
           texto='Aluno pesquisador e graduando em Relações Internacionais pela Unisinos, Enzo é técnico em informática e responsável por toda a parte relacionada a tecnologia do Grupo de Pesquisa CUBOTECH/CNPq.'
           imagem={Enzo}
-          link='' />
+          link='http://lattes.cnpq.br/5697554593364315' />
         <Integrante nome='Alana Bortolini'
           texto='Aluna de Relações Internacionais pela UNISINOS, Alana é responsável pela pesquisa que busca analisar as políticas e diretrizes relacionadas aos princípios ESG promovidas
 por organismos internacionais. Além disso, ela é  responsável pelas mídias sociais do grupo CUBOTECH/CNPq.'
@@ -124,7 +124,7 @@ por organismos internacionais. Além disso, ela é  responsável pelas mídias s
         <Integrante2 nome='Luna Marengo Tesser'
           texto='Luna é atualmente aluna do segundo semestre da faculdade de Direito da Unisinos, seu projeto de pesquisa aborda o impacto da tecnologia jurídica e big data no ambiente jurídico. Além disso, é a responsável pela edição e criação de vídeos e podcasts do grupo CUBOTECH/CNPq.'
           imagem={Luna}
-          link='' />
+          link='https://lattes.cnpq.br/7206189569552159' />
         <Integrante nome='Carla Susin'
           texto='Estudante do oitavo semestre de Direito pela UNISINOS, a principal área de pesquisa de Carla tem foco em governança corporativa, que objetiva a elaboração de um caderno de diretrizes para a adoção da ética da responsabilidade nas MPEs.'
           imagem={Carla}

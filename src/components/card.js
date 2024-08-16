@@ -42,8 +42,12 @@ const Titulo = styled.p`
 `;
 
 function CardComponent(props) {
+  const handleClick = () => {
+    window.open(props.link, '_blank');
+};
+
   return (
-    <Container>
+    <Container onClick={handleClick}>
       <Container2>
         <Image
           src={props.imagem}

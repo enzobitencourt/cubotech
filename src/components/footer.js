@@ -66,8 +66,8 @@ function Footer() {
                     </Creditos>
                     <Creditos>
                         <Titulo1>Siga-nos</Titulo1>
-                        <Texto2>Instagram</Texto2>
-                        <Texto2>Linkedin</Texto2>
+                        <Texto2 onClick={() => window.open('https://www.instagram.com/grupocubotech?igsh=dGdpODBiajh1djdy&utm_source=qr', '_blank')}>Instagram</Texto2>
+                        <Texto2 onClick={() => window.open('https://www.linkedin.com/in/grupo-cubotech-468100321/', '_blank')}>Linkedin</Texto2>
                         <Texto2>Youtube</Texto2>
                         <Texto2>Spotify</Texto2>
                     </Creditos>
