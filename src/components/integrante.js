@@ -84,7 +84,7 @@ export default function Integrante(props) {
                 />
                 <ContainerEscrita>
                     <Titulo1>{props.nome}</Titulo1>
-                    <Link onClick={handleClick}>Acesse o Currículo Lates</Link>
+                    <Link onClick={handleClick}>Acesse o Currículo Lattes</Link>
                     <Texto>{props.texto}</Texto>
                 </ContainerEscrita>
             </Container>
