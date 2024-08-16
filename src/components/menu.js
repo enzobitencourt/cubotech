@@ -55,10 +55,11 @@ const Subtitulo = styled.p`
   font-size: 15px;
 `;
 
-const Container = styled.div`
+const Container = styled.button`
   display: flex;
   flex-direction: row;
   align-items: end;
+  font-align: left;
 `;
 
 export function Menu() {
