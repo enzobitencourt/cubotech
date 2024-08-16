@@ -84,6 +84,8 @@ export default function Integrante2(props) {
                     src={props.imagem}
                     width={{ base: "40%", md: "30%" }}
                     objectFit='cover'
+                    transition="transform 0.4s ease-in-out"
+                    _hover={{ transform: "scale(1.05)" }}
                 />
             </Container>
         </>

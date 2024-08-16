@@ -79,6 +79,8 @@ export default function Integrante(props) {
                     src={props.imagem}
                     width={{ base: "40%", md: "30%" }}
                     objectFit='cover'
+                    transition="transform 0.4s ease-in-out"
+                    _hover={{ transform: "scale(1.05)" }}
                 />
                 <ContainerEscrita>
                     <Titulo1>{props.nome}</Titulo1>
