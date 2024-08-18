@@ -11,6 +11,7 @@ import Jamille from '../assets/Jamille.png'
 import Alana from '../assets/Alana.png'
 import Enzo from '../assets/Enzo.png'
 import Unisinos from "../assets/unisinos.jpeg"
+import Antonia from "../assets/Antonia.png"
 
 const Container2 = styled.div`
     display: flex;
@@ -132,6 +133,10 @@ por organismos internacionais. Além disso, ela é  responsável pelas mídias s
         <Integrante2 nome='Jamille Nejar'
           texto='Aluna do oitavo semestre da graduação em Direito pela UNISINOS, o principal objeto da pesquisa de Jamille é baseado no processo de construção jurídica das concessões e PPPs à luz da agenda 2030 e dos Direitos Humanos. '
           imagem={Jamille}
+          link='' />
+        <Integrante nome='Antônia Kellermann'
+          texto='Acadêmica de Direito na UNISINOS e pesquisadora, Antonia concentra seus estudos na interseção entre políticas públicas, sustentabilidade e desenvolvimento socioeconômico. Suas pesquisas exploram a colaboração internacional e o impacto na legislação brasileira, com foco em temas que envolvem governança pública e práticas sustentáveis.'
+          imagem={Antonia}
           link='' />
       </Container>
       <Footer />
