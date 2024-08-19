@@ -137,7 +137,7 @@ por organismos internacionais. Além disso, ela é  responsável pelas mídias s
         <Integrante nome='Antônia Kellermann'
           texto='Acadêmica de Direito na UNISINOS e pesquisadora, Antonia concentra seus estudos na interseção entre políticas públicas, sustentabilidade e desenvolvimento socioeconômico. Suas pesquisas exploram a colaboração internacional e o impacto na legislação brasileira, com foco em temas que envolvem governança pública e práticas sustentáveis.'
           imagem={Antonia}
-          link='' />
+          link='http://lattes.cnpq.br/0473265581411672' />
       </Container>
       <Footer />
     </>
