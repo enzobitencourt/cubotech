@@ -54,7 +54,7 @@ function Footer() {
                     </Container>
                     <Container2>
                         <Texto>Desenvolvido por equipe Cubotech.</Texto>
-                        <Titulo>Porto Alegre, 2024</Titulo>
+                        <Titulo>Av. Dr. Nilo Peçanha, 1600 - Boa Vista, <br/>Porto Alegre - RS, 91330-002</Titulo>
                     </Container2>
                 </Esquerda>
                 <Direita>

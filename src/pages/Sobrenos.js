@@ -12,6 +12,7 @@ import Alana from '../assets/Alana.png'
 import Enzo from '../assets/Enzo.png'
 import Unisinos from "../assets/unisinos.jpeg"
 import Antonia from "../assets/Antonia.png"
+import Laura from "../assets/Laura.png"
 
 const Container2 = styled.div`
     display: flex;
@@ -131,13 +132,17 @@ por organismos internacionais. Além disso, ela é  responsável pelas mídias s
           imagem={Carla}
           link='' />
         <Integrante2 nome='Jamille Nejar'
-          texto='Aluna do oitavo semestre da graduação em Direito pela UNISINOS, o principal objeto da pesquisa de Jamille é baseado no processo de construção jurídica das concessões e PPPs à luz da agenda 2030 e dos Direitos Humanos. '
+          texto='Aluna do oitavo semestre da graduação em Direito pela UNISINOS, o principal objeto da pesquisa de Jamille é baseado no processo de construção jurídica das concessões e PPPs à luz da agenda 2030 e dos Direitos Humanos.'
           imagem={Jamille}
           link='' />
         <Integrante nome='Antônia Kellermann'
           texto='Acadêmica de Direito na UNISINOS e pesquisadora, Antonia concentra seus estudos na interseção entre políticas públicas, sustentabilidade e desenvolvimento socioeconômico. Suas pesquisas exploram a colaboração internacional e o impacto na legislação brasileira, com foco em temas que envolvem governança pública e práticas sustentáveis.'
           imagem={Antonia}
           link='http://lattes.cnpq.br/0473265581411672' />
+        <Integrante2 nome='Laura Rossi Rimolo'
+          texto='Aluna de Direito-Les, no 8o semestre da Unisinos/POA. Laura é responsável por realizar pesquisas envolvendo ESG, com destaque para os processos de Parcerias Público Privadas (PPPs), com ênfase na responsabilidade trabalhista e sustentável das empresas.'
+          imagem={Laura}
+          link='http://lattes.cnpq.br/3212880532214441' />
       </Container>
       <Footer />
     </>
