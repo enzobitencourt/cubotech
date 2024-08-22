@@ -13,6 +13,7 @@ import Enzo from '../assets/Enzo.png'
 import Unisinos from "../assets/unisinos.jpeg"
 import Antonia from "../assets/Antonia.png"
 import Laura from "../assets/Laura.png"
+import Luciani from "../assets/Luciani.png"
 
 const Container2 = styled.div`
     display: flex;
@@ -143,6 +144,10 @@ por organismos internacionais. Além disso, ela é  responsável pelas mídias s
           texto='Aluna de Direito-Les, no 8o semestre da Unisinos/POA. Laura é responsável por realizar pesquisas envolvendo ESG, com destaque para os processos de Parcerias Público Privadas (PPPs), com ênfase na responsabilidade trabalhista e sustentável das empresas.'
           imagem={Laura}
           link='http://lattes.cnpq.br/3212880532214441' />
+          <Integrante nome='Luciani Gabrieli Colares Lopes'
+          texto='Aluna de Direito no 8º semestre da Unisinos, em Porto Alegre. Com uma trajetória acadêmica marcada pelo compromisso com o Direito e a sustentabilidade, Luciani dedica-se à pesquisa na área de Direito Regulatório e Desenvolvimento Econômico Sustentável. Com uma visão crítica e inovadora, ela busca contribuir para a construção de um futuro mais justo e sustentável por meio do Direito.'
+          imagem={Luciani}
+          link='http://lattes.cnpq.br/6104038500979127' />
       </Container>
       <Footer />
     </>
