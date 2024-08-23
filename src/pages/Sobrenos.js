@@ -115,39 +115,40 @@ function Sobrenos() {
           texto='Professora, Pesquisadora, Doutora e Pós Doutora do Programa de Mestrado Profissional em Direito da Empresa e dos Negócios da UNISINOS, Daniela é líder do Grupo de Pesquisa CUBOTECH/CNPq.'
           imagem={Daniela}
           link='http://lattes.cnpq.br/8962572217907641' />
-        <Integrante2 nome='Enzo Bitencourt'
-          texto='Aluno pesquisador e graduando em Relações Internacionais pela Unisinos, Enzo é técnico em informática e responsável por toda a parte relacionada a tecnologia do Grupo de Pesquisa CUBOTECH/CNPq.'
-          imagem={Enzo}
-          link='http://lattes.cnpq.br/5697554593364315' />
-        <Integrante nome='Alana Bortolini'
+        <Integrante2 nome='Alana Bortolini'
           texto='Aluna de Relações Internacionais pela UNISINOS, Alana é responsável pela pesquisa que busca analisar as políticas e diretrizes relacionadas aos princípios ESG promovidas
-por organismos internacionais. Além disso, ela é  responsável pelas mídias sociais do grupo CUBOTECH/CNPq.'
+          por organismos internacionais. Além disso, ela é  responsável pelas mídias sociais do grupo CUBOTECH/CNPq.'
           imagem={Alana}
-          link='' />
-        <Integrante2 nome='Luna Marengo Tesser'
-          texto='Luna é atualmente aluna do segundo semestre da faculdade de Direito da Unisinos, seu projeto de pesquisa aborda o impacto da tecnologia jurídica e big data no ambiente jurídico. Além disso, é a responsável pela edição e criação de vídeos e podcasts do grupo CUBOTECH/CNPq.'
-          imagem={Luna}
-          link='https://lattes.cnpq.br/7206189569552159' />
-        <Integrante nome='Carla Susin'
-          texto='Estudante do oitavo semestre de Direito pela UNISINOS, a principal área de pesquisa de Carla tem foco em governança corporativa, que objetiva a elaboração de um caderno de diretrizes para a adoção da ética da responsabilidade nas MPEs.'
-          imagem={Carla}
-          link='' />
-        <Integrante2 nome='Jamille Nejar'
-          texto='Aluna do oitavo semestre da graduação em Direito pela UNISINOS, o principal objeto da pesquisa de Jamille é baseado no processo de construção jurídica das concessões e PPPs à luz da agenda 2030 e dos Direitos Humanos.'
-          imagem={Jamille}
           link='' />
         <Integrante nome='Antônia Kellermann'
           texto='Acadêmica de Direito na UNISINOS e pesquisadora, Antonia concentra seus estudos na interseção entre políticas públicas, sustentabilidade e desenvolvimento socioeconômico. Suas pesquisas exploram a colaboração internacional e o impacto na legislação brasileira, com foco em temas que envolvem governança pública e práticas sustentáveis.'
           imagem={Antonia}
           link='http://lattes.cnpq.br/0473265581411672' />
-        <Integrante2 nome='Laura Rossi Rimolo'
+        <Integrante2 nome='Carla Susin'
+          texto='Estudante do oitavo semestre de Direito pela UNISINOS, a principal área de pesquisa de Carla tem foco em governança corporativa, que objetiva a elaboração de um caderno de diretrizes para a adoção da ética da responsabilidade nas MPEs.'
+          imagem={Carla}
+          link='' />
+        <Integrante nome='Enzo Bitencourt'
+          texto='Aluno pesquisador e graduando em Relações Internacionais pela Unisinos, Enzo é técnico em informática e responsável por toda a parte relacionada a tecnologia do Grupo de Pesquisa CUBOTECH/CNPq.'
+          imagem={Enzo}
+          link='http://lattes.cnpq.br/5697554593364315' />
+        <Integrante2 nome='Jamille Nejar'
+          texto='Aluna do oitavo semestre da graduação em Direito pela UNISINOS, o principal objeto da pesquisa de Jamille é baseado no processo de construção jurídica das concessões e PPPs à luz da agenda 2030 e dos Direitos Humanos.'
+          imagem={Jamille}
+          link='' />
+        <Integrante nome='Laura Rossi Rimolo'
           texto='Aluna de Direito-Les, no 8o semestre da Unisinos/POA. Laura é responsável por realizar pesquisas envolvendo ESG, com destaque para os processos de Parcerias Público Privadas (PPPs), com ênfase na responsabilidade trabalhista e sustentável das empresas.'
           imagem={Laura}
           link='http://lattes.cnpq.br/3212880532214441' />
-          <Integrante nome='Luciani Gabrieli Colares Lopes'
+        <Integrante2 nome='Luciani Gabrieli Colares Lopes'
           texto='Aluna de Direito no 8º semestre da Unisinos, em Porto Alegre. Com uma trajetória acadêmica marcada pelo compromisso com o Direito e a sustentabilidade, Luciani dedica-se à pesquisa na área de Direito Regulatório e Desenvolvimento Econômico Sustentável. Com uma visão crítica e inovadora, ela busca contribuir para a construção de um futuro mais justo e sustentável por meio do Direito.'
           imagem={Luciani}
           link='http://lattes.cnpq.br/6104038500979127' />
+        <Integrante nome='Luna Marengo Tesser'
+          texto='Luna é atualmente aluna do segundo semestre da faculdade de Direito da Unisinos, seu projeto de pesquisa aborda o impacto da tecnologia jurídica e big data no ambiente jurídico. Além disso, é a responsável pela edição e criação de vídeos e podcasts do grupo CUBOTECH/CNPq.'
+          imagem={Luna}
+          link='https://lattes.cnpq.br/7206189569552159' />
+
       </Container>
       <Footer />
     </>

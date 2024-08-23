@@ -8,10 +8,8 @@ import { ChevronRightIcon } from '@chakra-ui/icons';
 import CardB from '../components/cardBlog';
 import logo from '../assets/logo.png'
 import { useNavigate } from 'react-router-dom';
-import Daniela from "../assets/Daniela1.jpg"
-import Carla from "../assets/Carla1.jpg"
-import Enzo from "../assets/Enzo1.jpg"
-import Alana from "../assets/Alana1.jpg"
+import Antonia from "../assets/Antonia1.jpg"
+import Imagem from "../assets/fotoblog1.png"
 
 const Container = styled.div`
   display: flex;
@@ -213,10 +211,10 @@ function Home() {
           </Container8>
         </Container5>
         <Container6>
-          <CardB titulo='Normas ABNT e Pesquisa' autor='Daniela Pellin' foto={Daniela} data='15/08/2024' />
-          <CardB titulo='Normas ABNT e Pesquisa' autor='Carla Susin' foto={Carla} data='15/08/2024' />
-          <CardB titulo='Normas ABNT e Pesquisa' autor='Enzo Bitencourt' foto={Enzo} data='15/08/2024' />
-          <CardB titulo='Normas ABNT e Pesquisa' autor='Alana Bortolini' foto={Alana} data='15/08/2024' />
+          <CardB titulo='A Governança Pública e a Questão Ambiental: Reflexões sobre a Sustentabilidade na Parceria Público-Privada' autor='Maria Antônia Garcia Kellermann' imagem={Imagem} foto={Antonia} data='23/08/2024' />
+          <CardB titulo='A Governança Pública e a Questão Ambiental: Reflexões sobre a Sustentabilidade na Parceria Público-Privada' autor='Maria Antônia Garcia Kellermann' imagem={Imagem} foto={Antonia} data='23/08/2024' />
+          <CardB titulo='A Governança Pública e a Questão Ambiental: Reflexões sobre a Sustentabilidade na Parceria Público-Privada' autor='Maria Antônia Garcia Kellermann' imagem={Imagem} foto={Antonia} data='23/08/2024' />
+          <CardB titulo='A Governança Pública e a Questão Ambiental: Reflexões sobre a Sustentabilidade na Parceria Público-Privada' autor='Maria Antônia Garcia Kellermann' imagem={Imagem} foto={Antonia} data='23/08/2024' />
         </Container6>
       </ContainerBlog>
       <Footer />
