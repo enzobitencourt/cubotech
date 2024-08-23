@@ -54,34 +54,27 @@ const Container2 = styled.div`
     justify-content: center;
     align-items: center;
     padding: 6vw 4vw 6vw 4vw;
+
+    .elfsight-app-641eff44-4eac-4782-ad71-c350987b4c30 {
+        width: 100%; /* Ou ajuste conforme necessário */
+        max-width: 1200px; /* Defina um valor máximo se necessário */
+        height: auto; /* Ajuste a altura se necessário */
+    }
 `;
 
 
 function Galeria() {
     useEffect(() => {
-        // Adiciona o script do ElfSight ao carregar o componente
-        const script = document.createElement("script");
+        const script = document.createElement('script');
         script.src = "https://static.elfsight.com/platform/platform.js";
+        script.setAttribute('data-use-service-core', '');
         script.defer = true;
-        script.dataset.useServiceCore = true;
         document.body.appendChild(script);
-    
-        const resizeObserverLoopErrRe = /^ResizeObserver loop limit exceeded$/;
-    
-        const stopResizeObserverError = (event) => {
-            if (resizeObserverLoopErrRe.test(event.message)) {
-                event.stopImmediatePropagation();
-            }
-        };
-    
-        window.addEventListener('error', stopResizeObserverError);
-    
+
         return () => {
-            window.removeEventListener('error', stopResizeObserverError);
+            document.body.removeChild(script);
         };
     }, []);
-    
-    
 
     return (
         <>
