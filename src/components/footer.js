@@ -74,7 +74,7 @@ function Footer() {
                     <Creditos>
                         <Titulo1>Contato</Titulo1>
                         <Texto1>grupocubotech@gmail.com</Texto1>
-                        <Texto1>+55 (51) 99999-9999</Texto1>
+                        <Texto1>+55 (51) 99852-2711</Texto1>
                     </Creditos>
                 </Direita>
             </FooterContainer>
