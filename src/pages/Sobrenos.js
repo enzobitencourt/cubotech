@@ -99,15 +99,19 @@ const Titulo = styled.p`
 `;
 
 function Sobrenos() {
+  const handleClick = (link) => {
+    window.open(link, '_blank');
+  };
+
   return (
     <>
       <Menu />
       <Container2>
         <Titulo>Sobre nós</Titulo>
         <ContainerBotao>
-          <Botao>Código de Ética</Botao>
-          <Botao>Manifesto de Conduta</Botao>
-          <Botao>Política de Publicações</Botao>
+          <Botao onClick={() => handleClick('https://drive.google.com/file/d/1njf5nChHHt0aKNZMqpjzRbjgMqEwb7cc/view?usp=sharing')}>Código de Ética</Botao>
+          <Botao onClick={() => handleClick('https://drive.google.com/file/d/1sCB8wQUJmMzKj-A4f4XxOh0LAR8mEuYo/view?usp=sharing')}>Manifesto de Conduta</Botao>
+          <Botao onClick={() => handleClick('https://example.com/codigo-de-etica')}>Política de Publicações</Botao>
         </ContainerBotao>
       </Container2>
       <Container>
