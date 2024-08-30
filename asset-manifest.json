@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.js": "./static/js/main.9a3080c8.js",
+    "main.js": "./static/js/main.8121015d.js",
     "static/js/453.5e08222c.chunk.js": "./static/js/453.5e08222c.chunk.js",
     "static/media/blog.jpg": "./static/media/blog.619b1768a66a20e8bffc.jpg",
     "static/media/fotoblog1.png": "./static/media/fotoblog1.91eaacc0b3e5b51ec175.png",
-    "static/media/Laura.png": "./static/media/Laura.65b04de977664ab5554c.png",
+    "static/media/Laura.png": "./static/media/Laura.209efbb8a3d7d3c37b1d.png",
     "static/media/Jamille.png": "./static/media/Jamille.09f5b4fa9368556bc284.png",
+    "static/media/Otavio.png": "./static/media/Otavio.47b0e402871a10293d33.png",
     "static/media/Carla.png": "./static/media/Carla.f502f6dced5792db5191.png",
     "static/media/Antonia.png": "./static/media/Antonia.901c933b8c843b3ee77d.png",
-    "static/media/Luciani.png": "./static/media/Luciani.3a8ad1f22510d3f4bd7a.png",
+    "static/media/Luciani.png": "./static/media/Luciani.e73b4cbc9638af02e9c7.png",
     "static/media/Alana.png": "./static/media/Alana.6979d770f73edf15b16c.png",
+    "static/media/Joana.png": "./static/media/Joana.382a570c54d7a96dd6f5.png",
     "static/media/Daniela.png": "./static/media/Daniela.da0981f482d9fce15251.png",
     "static/media/Enzo.png": "./static/media/Enzo.1afb6bf9f8f9c1647ff6.png",
-    "static/media/Luna.png": "./static/media/Luna.380c96f0f6ef1bac6278.png",
+    "static/media/Luna.png": "./static/media/Luna.a6fc27e4dc20189fd91b.png",
+    "static/media/direitoshumanos.jpg": "./static/media/direitoshumanos.3e44da61ebede5c23720.jpg",
+    "static/media/Alana1.jpg": "./static/media/Alana1.e410659cbc1c51fdd02c.jpg",
     "static/media/unisinos.jpeg": "./static/media/unisinos.972eca71e2593033fb2a.jpeg",
     "static/media/Antonia1.jpg": "./static/media/Antonia1.dffc63e163751b3e35eb.jpg",
     "static/media/logo.png": "./static/media/logo.0d5c4d351a2724646f43.png",
     "index.html": "./index.html",
-    "main.9a3080c8.js.map": "./static/js/main.9a3080c8.js.map",
+    "main.8121015d.js.map": "./static/js/main.8121015d.js.map",
     "453.5e08222c.chunk.js.map": "./static/js/453.5e08222c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.9a3080c8.js"
+    "static/js/main.8121015d.js"
   ]
 }
