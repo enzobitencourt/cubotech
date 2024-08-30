@@ -1,9 +1,9 @@
-import Footer from "../components/footer"
-import { Menu } from "../components/menu"
-import Antonia from "../assets/Antonia1.jpg"
+import Footer from "../../components/footer"
+import { Menu } from "../../components/menu"
+import Antonia from "../../assets/Antonia1.jpg"
 import styled from "styled-components"
 import { Image } from "@chakra-ui/react";
-import Imagem from "../assets/fotoblog1.png"
+import Imagem from "../../assets/fotoblog1.png"
 
 const Container3 = styled.div`
   display: flex;
@@ -100,7 +100,7 @@ const Divisao = styled.div`
 `
 
 
-function BlogArticle() {
+function BlogArticle1() {
     return (
         <>
             <Menu />
@@ -151,4 +151,4 @@ function BlogArticle() {
     )
 }
 
-export default BlogArticle
+export default BlogArticle1

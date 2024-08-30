@@ -73,7 +73,7 @@ function CardB(props) {
 
     return (
         <>
-            <Container onClick={() => navigate('/blog/article')}>
+            <Container onClick={() => navigate(props.path)}>
                 <Container2>
                     <Image
                         src={props.imagem}

@@ -4,7 +4,9 @@ import styled from "styled-components"
 import ImageBlog from "../assets/blog.jpg"
 import CardB from "../components/cardBlog";
 import Antonia from "../assets/Antonia1.jpg"
+import Alana from "../assets/Alana1.jpg"
 import Imagem from "../assets/fotoblog1.png"
+import Direitos from "../assets/direitoshumanos.jpg"
 
 const Container = styled.div`
     display: flex;
@@ -75,10 +77,8 @@ function Blog() {
                 <Titulo>Blog</Titulo>
             </Container>
             <ContainerBlog>
-                <CardB titulo='A Governança Pública e a Questão Ambiental: Reflexões sobre a Sustentabilidade na Parceria Público-Privada' autor='Maria Antônia Garcia Kellermann' imagem={Imagem} foto={Antonia} data='23/08/2024'/>
-                <CardB titulo='A Governança Pública e a Questão Ambiental: Reflexões sobre a Sustentabilidade na Parceria Público-Privada' autor='Maria Antônia Garcia Kellermann' imagem={Imagem} foto={Antonia} data='23/08/2024'/>
-                <CardB titulo='A Governança Pública e a Questão Ambiental: Reflexões sobre a Sustentabilidade na Parceria Público-Privada' autor='Maria Antônia Garcia Kellermann' imagem={Imagem} foto={Antonia} data='23/08/2024'/>
-                <CardB titulo='A Governança Pública e a Questão Ambiental: Reflexões sobre a Sustentabilidade na Parceria Público-Privada' autor='Maria Antônia Garcia Kellermann' imagem={Imagem} foto={Antonia} data='23/08/2024'/>
+                <CardB path='/blog/article1' titulo='A Governança Pública e a Questão Ambiental: Reflexões sobre a Sustentabilidade na Parceria Público-Privada' autor='Maria Antônia Garcia Kellermann' imagem={Imagem} foto={Antonia} data='23/08/2024'/>
+                <CardB path='/blog/article2' titulo='Documentos de concepção dos direitos humanos ao longo da história' autor='Alana Bortolini' imagem={Direitos} foto={Alana} data='29/08/2024'/>
             </ContainerBlog>
             <Footer />
         </>

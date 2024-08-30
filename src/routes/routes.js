@@ -2,7 +2,8 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from '../pages/Home';
 import Sobrenos from "../pages/Sobrenos";
 import Blog from "../pages/Blog";
-import BlogArticle from "../pages/BlogArticle";
+import BlogArticle1 from "../pages/articles/governancaepuc";
+import BlogArticle2 from "../pages/articles/direitoshumanos";
 import Galeria from "../pages/Galeria";
 
 function Rotas() {
@@ -12,7 +13,8 @@ function Rotas() {
         <Route path="/" element={<Home />} />
         <Route path="/sobrenos" element={<Sobrenos />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/blog/article" element={<BlogArticle/>} />
+        <Route path="/blog/article1" element={<BlogArticle1/>} />
+        <Route path="/blog/article2" element={<BlogArticle2/>} />
         <Route path="/galeria" element={<Galeria/>} />
       </Routes>
     </HashRouter>

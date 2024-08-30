@@ -14,6 +14,8 @@ import Unisinos from "../assets/unisinos.jpeg"
 import Antonia from "../assets/Antonia.png"
 import Laura from "../assets/Laura.png"
 import Luciani from "../assets/Luciani.png"
+import Otavio from "../assets/Otavio.png"
+import Joana from "../assets/Joana.png"
 
 const Container2 = styled.div`
     display: flex;
@@ -140,19 +142,26 @@ function Sobrenos() {
           texto='Aluna do oitavo semestre da graduação em Direito pela UNISINOS, o principal objeto da pesquisa de Jamille é baseado no processo de construção jurídica das concessões e PPPs à luz da agenda 2030 e dos Direitos Humanos.'
           imagem={Jamille}
           link='' />
-        <Integrante nome='Laura Rossi Rimolo'
+        <Integrante nome='Joana Moreira Traiber'
+          texto='Joana é aluna de Relações Internacionais na UNISINOS e pesquisadora no Grupo CUBOTECH/CNPq, onde se dedica à análise e produção de artigos acadêmicos. Sua contribuição é essencial para o avanço de estudos nas áreas de tecnologia e direito. Atualmente, Joana participa ativamente de uma pesquisa sobre a catástrofe climática que afetou o estado do Rio Grande do Sul em 2024.'
+          imagem={Joana}
+          link='http://lattes.cnpq.br/6599448396838516' />
+        <Integrante2 nome='Laura Rossi Rimolo'
           texto='Aluna de Direito-Les, no 8o semestre da Unisinos/POA. Laura é responsável por realizar pesquisas envolvendo ESG, com destaque para os processos de Parcerias Público Privadas (PPPs), com ênfase na responsabilidade trabalhista e sustentável das empresas.'
           imagem={Laura}
           link='http://lattes.cnpq.br/3212880532214441' />
-        <Integrante2 nome='Luciani Gabrieli Colares Lopes'
+        <Integrante nome='Luciani Gabrieli Colares Lopes'
           texto='Aluna de Direito no 8º semestre da Unisinos, em Porto Alegre. Com uma trajetória acadêmica marcada pelo compromisso com o Direito e a sustentabilidade, Luciani dedica-se à pesquisa na área de Direito Regulatório e Desenvolvimento Econômico Sustentável. Com uma visão crítica e inovadora, ela busca contribuir para a construção de um futuro mais justo e sustentável por meio do Direito.'
           imagem={Luciani}
           link='http://lattes.cnpq.br/6104038500979127' />
-        <Integrante nome='Luna Marengo Tesser'
+        <Integrante2 nome='Luna Marengo Tesser'
           texto='Luna é atualmente aluna do segundo semestre da faculdade de Direito da Unisinos, seu projeto de pesquisa aborda o impacto da tecnologia jurídica e big data no ambiente jurídico. Além disso, é a responsável pela edição e criação de vídeos e podcasts do grupo CUBOTECH/CNPq.'
           imagem={Luna}
           link='https://lattes.cnpq.br/7206189569552159' />
-
+        <Integrante nome='Otavio Schmidt'
+          texto='Otávio é aluno de relações internacionais no segundo semestre, participa como pesquisador no grupo CUBOTECH/CNPq na área de direito e globalização internacional.'
+          imagem={Otavio}
+          link='https://lattes.cnpq.br/1267608337532579' />
       </Container>
       <Footer />
     </>

@@ -9,7 +9,9 @@ import CardB from '../components/cardBlog';
 import logo from '../assets/logo.png'
 import { useNavigate } from 'react-router-dom';
 import Antonia from "../assets/Antonia1.jpg"
+import Alana from "../assets/Alana1.jpg"
 import Imagem from "../assets/fotoblog1.png"
+import Direitos from "../assets/direitoshumanos.jpg"
 
 const Container = styled.div`
   display: flex;
@@ -211,10 +213,8 @@ function Home() {
           </Container8>
         </Container5>
         <Container6>
-          <CardB titulo='A Governança Pública e a Questão Ambiental: Reflexões sobre a Sustentabilidade na Parceria Público-Privada' autor='Maria Antônia Garcia Kellermann' imagem={Imagem} foto={Antonia} data='23/08/2024' />
-          <CardB titulo='A Governança Pública e a Questão Ambiental: Reflexões sobre a Sustentabilidade na Parceria Público-Privada' autor='Maria Antônia Garcia Kellermann' imagem={Imagem} foto={Antonia} data='23/08/2024' />
-          <CardB titulo='A Governança Pública e a Questão Ambiental: Reflexões sobre a Sustentabilidade na Parceria Público-Privada' autor='Maria Antônia Garcia Kellermann' imagem={Imagem} foto={Antonia} data='23/08/2024' />
-          <CardB titulo='A Governança Pública e a Questão Ambiental: Reflexões sobre a Sustentabilidade na Parceria Público-Privada' autor='Maria Antônia Garcia Kellermann' imagem={Imagem} foto={Antonia} data='23/08/2024' />
+          <CardB path='/blog/article1' titulo='A Governança Pública e a Questão Ambiental: Reflexões sobre a Sustentabilidade na Parceria Público-Privada' autor='Maria Antônia Garcia Kellermann' imagem={Imagem} foto={Antonia} data='23/08/2024' />
+          <CardB path='/blog/article2' titulo='Documentos de concepção dos direitos humanos ao longo da história' autor='Alana Bortolini' imagem={Direitos} foto={Alana} data='29/08/2024' />
         </Container6>
       </ContainerBlog>
       <Footer />
