@@ -10,8 +10,7 @@ const Container = styled.button`
   flex-direction: column;
   background-color: white;
   border-radius: 10px;
-  padding: 1.3vw;
-  justify-content: center;
+  padding: 3vw 1vw;
   text-align: left;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease-in-out; /* Transição suave para o aumento de tamanho */
@@ -25,7 +24,8 @@ const Container2 = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  gap: 2vw;
+  justify-content: space-between;
+  height: 100%;
 `;
 
 const Container3 = styled.div`

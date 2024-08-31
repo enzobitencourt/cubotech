@@ -159,7 +159,7 @@ function Sobrenos() {
           imagem={Luna}
           link='https://lattes.cnpq.br/7206189569552159' />
         <Integrante nome='Otavio Schmidt'
-          texto='Otávio é aluno de relações internacionais no segundo semestre, participa como pesquisador no grupo CUBOTECH/CNPq na área de direito e globalização internacional.'
+          texto='Otávio é aluno de relações internacionais no segundo semestre na Unisinos, participa como pesquisador no grupo CUBOtech/CNPq onde produz artigos acadêmicos e análises sobre a área do direito, com um foco na junção do direito e tecnologias. Atualmente participa de pesquisas e análises sobre as questões climáticas e a globalização perante as enchentes no Rio Grande do Sul.'
           imagem={Otavio}
           link='https://lattes.cnpq.br/1267608337532579' />
       </Container>
