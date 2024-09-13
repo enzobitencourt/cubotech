@@ -56,8 +56,7 @@ const Container5 = styled.div`
 
 const Container4 = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-auto-rows: minmax(50vh, auto); 
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   justify-content: space-between;
   align-items: center;
@@ -65,10 +64,13 @@ const Container4 = styled.div`
 
   @media (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr); 
-    grid-auto-rows: minmax(30vh, auto); 
   }
 
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr; 
+  }
 `;
+
 
 const Container6 = styled.div`
   display: grid;

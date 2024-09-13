@@ -5,6 +5,7 @@ import styled from 'styled-components';
 const Container = styled.button`
   width: 100%;
   height: 100%;
+  min-height: 50vh; /* Define a altura mínima do card */
   display: flex;
   flex-direction: column;
   justify-content: center;

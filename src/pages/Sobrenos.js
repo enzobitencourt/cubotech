@@ -133,7 +133,7 @@ function Sobrenos() {
         <Integrante2 nome='Carla Susin'
           texto='Estudante do oitavo semestre de Direito pela UNISINOS, a principal área de pesquisa de Carla tem foco em governança corporativa, que objetiva a elaboração de um caderno de diretrizes para a adoção da ética da responsabilidade nas MPEs.'
           imagem={Carla}
-          link='' />
+          link='https://lattes.cnpq.br/7109506118369972' />
         <Integrante nome='Enzo Bitencourt'
           texto='Aluno pesquisador e graduando em Relações Internacionais pela Unisinos, Enzo é técnico em informática e responsável por toda a parte relacionada a tecnologia do Grupo de Pesquisa CUBOTECH/CNPq.'
           imagem={Enzo}
