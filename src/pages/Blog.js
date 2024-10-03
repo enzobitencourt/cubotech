@@ -7,6 +7,8 @@ import Antonia from "../assets/Antonia1.jpg"
 import Alana from "../assets/Alana1.jpg"
 import Imagem from "../assets/fotoblog1.png"
 import Direitos from "../assets/direitoshumanos.jpg"
+import Carla from "../assets/Carla1.jpg"
+import Tributos from "../assets/cobrancatributos.jpeg"
 
 const Container = styled.div`
     display: flex;
@@ -79,6 +81,7 @@ function Blog() {
             <ContainerBlog>
                 <CardB path='/blog/article1' titulo='A Governança Pública e a Questão Ambiental: Reflexões sobre a Sustentabilidade na Parceria Público-Privada' autor='Maria Antônia Garcia Kellermann' imagem={Imagem} foto={Antonia} data='23/08/2024'/>
                 <CardB path='/blog/article2' titulo='Documentos de concepção dos direitos humanos ao longo da história' autor='Alana Bortolini' imagem={Direitos} foto={Alana} data='29/08/2024'/>
+                <CardB path='/blog/article3' titulo='A cobrança de tributos em processos de recuperação judicial' autor='Carla Susin' imagem={Tributos} foto={Carla} data='03/10/2024' />
             </ContainerBlog>
             <Footer />
         </>
