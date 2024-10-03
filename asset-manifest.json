@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "./static/js/main.8c5f416b.js",
+    "main.js": "./static/js/main.6f22dc46.js",
     "static/js/453.5e08222c.chunk.js": "./static/js/453.5e08222c.chunk.js",
     "static/media/blog.jpg": "./static/media/blog.619b1768a66a20e8bffc.jpg",
     "static/media/fotoblog1.png": "./static/media/fotoblog1.91eaacc0b3e5b51ec175.png",
@@ -17,14 +17,16 @@
     "static/media/Luna.png": "./static/media/Luna.a6fc27e4dc20189fd91b.png",
     "static/media/direitoshumanos.jpg": "./static/media/direitoshumanos.3e44da61ebede5c23720.jpg",
     "static/media/Alana1.jpg": "./static/media/Alana1.e410659cbc1c51fdd02c.jpg",
+    "static/media/Carla1.jpg": "./static/media/Carla1.95dbb1d4bdfa5d3c7b7d.jpg",
     "static/media/unisinos.jpeg": "./static/media/unisinos.972eca71e2593033fb2a.jpeg",
     "static/media/Antonia1.jpg": "./static/media/Antonia1.dffc63e163751b3e35eb.jpg",
     "static/media/logo.png": "./static/media/logo.0d5c4d351a2724646f43.png",
+    "static/media/cobrancatributos.jpeg": "./static/media/cobrancatributos.ef35ec1a05f866350c83.jpeg",
     "index.html": "./index.html",
-    "main.8c5f416b.js.map": "./static/js/main.8c5f416b.js.map",
+    "main.6f22dc46.js.map": "./static/js/main.6f22dc46.js.map",
     "453.5e08222c.chunk.js.map": "./static/js/453.5e08222c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.8c5f416b.js"
+    "static/js/main.6f22dc46.js"
   ]
 }
